@@ -1,0 +1,38 @@
+.error-404,
+.error-500,
+.under-construction {
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+
+    .page-title-icon {
+        height: 150px;
+        margin-top: @global-margin * 4;
+    }
+
+    h1 {
+        font-size: 6em;
+        color: @error-color;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 3em;
+        color: @error-color;
+    }
+
+    p {
+        color: #888;
+        font-size: 1.5em;
+        line-height: 1.8em;
+
+        a {
+            color: @error-color;
+        }
+    }
+    pre {
+        text-align: left;
+        width: 800px;
+        margin: 0 auto;
+    }
+}
