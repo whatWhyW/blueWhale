@@ -71,7 +71,7 @@ const data = [{
     state: <Icon type="caret-down" style={{ color: 'gray' }}/>,
     written: '在各领域凝心聚力齐心协力集聚改革发展的正能量。',
     mail: 'lígio.carvalho@example.com',
-    time: '2017-03-06 10:19:07',
+    time: '2019-03-06 10:19:07',
 },{
     key: '6',
     img: <Avatar style={{ backgroundColor: '#ae007c' }}>U</Avatar>,
@@ -79,7 +79,7 @@ const data = [{
     state: <Icon type="caret-up" style={{ color: 'red' }}/>,
     written: '对“为官不为”及时亮剑，集中曝光、整治“为官不为”“为官乱为”，使无为者让位、干事者有位。',
     mail: 'samuel.leon@example.com',
-    time: '2017-11-03 13:43:33',
+    time: '2019-11-03 13:43:33',
 }];
 
 export default class HomePage extends Component {
@@ -143,7 +143,7 @@ export default class HomePage extends Component {
                 axisLabel:{
                     color:'gray'
                 },
-                data: ['2011', '2012', '2013', '2014', '2015', '2016', '2017']
+                data: ['2011', '2012', '2013', '2014', '2015', '2016', '2019']
             },
             yAxis: {
                 min: 0,
@@ -223,7 +223,7 @@ export default class HomePage extends Component {
                                         style={{width: '60px', height: '60px', borderRadius: '50%', marginBottom:16}}
                                     />
                                     <div>zysoft</div>
-                                    <div>zhaoyu_m69@163.com</div>
+                                    <div>wyme23@163.com</div>
                                 </div>
                                 <div className='weather'>
                                     {/*心知天气API*/}
@@ -276,20 +276,20 @@ export default class HomePage extends Component {
                                 <div className="timeline">
                                     <Timeline>
                                         <Timeline.Item color="green">
-                                            <div  className="timeItem">创建项目 - 2017-10-01</div>
-                                            <div  className="timeItem">搭建UI框架 - 2017-10-02</div>
-                                            <div  className="timeItem">对接协议 - 2017-10-04</div>
-                                            <div  className="timeItem">实现功能 - 2017-10-05</div>
+                                            <div  className="timeItem">创建项目 - 2019-10-01</div>
+                                            <div  className="timeItem">搭建UI框架 - 2019-10-02</div>
+                                            <div  className="timeItem">对接协议 - 2019-10-04</div>
+                                            <div  className="timeItem">实现功能 - 2019-10-05</div>
                                         </Timeline.Item>
                                         <Timeline.Item color="red">
-                                            <div  className="timeItem">通信调试 - 2017-10-10</div>
-                                            <div  className="timeItem">功能测试 - 2017-10-11</div>
-                                            <div  className="timeItem">错误调试 - 2017-10-13</div>
+                                            <div  className="timeItem">通信调试 - 2019-10-10</div>
+                                            <div  className="timeItem">功能测试 - 2019-10-11</div>
+                                            <div  className="timeItem">错误调试 - 2019-10-13</div>
                                         </Timeline.Item>
                                         <Timeline.Item color="blue">
-                                            <div  className="timeItem">界面优化 - 2017-10-15</div>
-                                            <div  className="timeItem">性能优化 - 2017-10-17</div>
-                                            <div  className="timeItem">发布版本 - 2017-10-20</div>
+                                            <div  className="timeItem">界面优化 - 2019-10-15</div>
+                                            <div  className="timeItem">性能优化 - 2019-10-17</div>
+                                            <div  className="timeItem">发布版本 - 2019-10-20</div>
                                         </Timeline.Item>
                                     </Timeline>
                                 </div>
