@@ -1,7 +1,7 @@
 import React from 'react';
 import { Upload, Icon, message } from 'antd';
 const Dragger = Upload.Dragger;
-const LOCAL_SERVER = "http://localhost:8080/upload";
+const LOCAL_SERVER = "http://localhost:8111/upload";
 
 const props = {
     name: 'file',

@@ -36,8 +36,8 @@ router.get('/redirect', async (req, res, next) => {
     console.log(result.data);
     const {name, id} = result.data;
 
-    res.cookie('mspa_user', `{"username":"${name}", "password":"${id}"}`);
-    res.redirect(`http://localhost:3000/app`);
+    res.cookie('user', `{"username":"${name}", "password":"${id}"}`);
+    res.redirect(`http://localhost:8002/app`);
 });
 
 module.exports = router;
